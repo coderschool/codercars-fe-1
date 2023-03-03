@@ -7,7 +7,6 @@ import { Box, CssBaseline, Typography } from "@mui/material";
 import Copyright from "./components/Copyright";
 
 function App() {
-  console.log(process.env.REACT_APP_BACKEND_API);
   return (
     <BrowserRouter>
       <ThemeProvider>
